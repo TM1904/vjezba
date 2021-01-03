@@ -1,0 +1,281 @@
+body{
+    background-color: whitesmoke;
+    margin: 0px;
+    
+}
+.wrapper{
+    width: 100%;
+    height: fit-content;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: brown;
+    height: fit-content;
+}
+img[alt="logo"]{
+    width: 20%;
+    height: 70px;
+}
+nav{
+    width: 50%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav a{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 0px 30px;
+}
+nav a:hover{
+   color: black;
+}
+nav a:active{
+    background-color: darkred;
+    color: yellow;
+}
+
+.img{
+    width: 100%;
+    height: fit-content;
+    margin-top: 3px;
+    position: relative;
+}
+img[alt="front"]{
+    width: 100%;
+}
+img[alt="front-over"]{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    height: fit-content;
+}
+section h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    border-bottom: 2px solid red;
+    width: 100%;
+    text-transform: uppercase;
+}
+.article1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+.par-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    margin: 0px;
+    margin-top: 20px;
+    padding: 5px;
+}
+.par {
+    width: 45%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.par p {
+    margin: 0px;
+    font-size: 15px;
+}
+.par h3 {
+    margin: 0px;
+    font-size: 15px;
+    color: red;
+    cursor: pointer;
+}
+img[alt="computer"]{
+    margin: 0px;
+    width: 100%;
+}
+#more{
+    display: none;
+}
+.article2 p{
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.article2 h3{
+    margin: 0px;
+    font-size: 15px;
+    color: red;
+    cursor: pointer;
+}
+#more1{
+    display: none;
+}
+
+.article3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 15px;
+    height: fit-content;
+    
+}
+.display-flex h3{
+    margin: 0px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #6e6d6d;
+}
+.par-img1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    width: 50%;
+    
+}
+.par-img1 p{
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.par-img1 h4{
+    margin: 0px;
+    font-size: 15px;
+    color: red;
+    cursor: pointer;
+    
+}
+#more2{
+    display: none;
+}
+
+img[alt="news1"],
+img[alt="news2"]{
+    margin-right: 15px;
+    width: 40%;
+    float: left;
+}
+.par-img2{
+    width: 50%;
+}
+.par-img2 p{
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+.par-img2 h4{
+    margin: 0px;
+    font-size: 15px;
+    color: red;
+    cursor: pointer;
+}
+#more3{
+    display: none;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    background-color: #f2f2f2;
+    padding: 15px;
+    height: fit-content;
+    font-size: 15px;
+}
+aside h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    border-bottom: 2px solid grey;
+    width: 100%;
+    text-transform: uppercase;
+}
+.tags{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.tags a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    height: fit-content;
+    color: white;
+    background-color: grey;
+    padding: 10px;
+}
+.tags a:hover{
+    cursor: pointer;
+    background-color: bisque;
+    color: blue;
+}
+
+.tags a:nth-child(1):hover{
+    background-color: black;
+    color: orangered;
+    cursor: pointer;
+}
+
+.reklama{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+img[alt="reklama"]{
+    width: 65%;
+    margin: 0px 100px;
+}
+footer{
+    width: 100%;
+    height: fit-content;
+    border-top: 1px solid black;
+    margin-top: 10px;
+    
+    
+}
+footer h4{
+    margin: 0px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
